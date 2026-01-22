@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.mobile-container {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.result-header {
+    background: linear-gradient(to bottom, #6943ff, #2f2ce9);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 30px 40px 40px;
+    text-align: center;
+    color: white;
+}
+
+.result-header .title {
+    color: #c8c7ff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.circle {
+    background: linear-gradient(to bottom, #4e21fb, rgba(36, 33, 202, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle .score {
+    font-size: 3.5rem;
+    font-weight: 800;
+    display: block;
+}
+
+.circle .total {
+    color: #c8c7ff;
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+
+.text-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.text-content p {
+    color: #c8c7ff;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+
+.summary-section {
+    padding: 30px;
+}
+
+.summary-label {
+    color: #303b5a;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+
+.red { background-color: rgba(255, 87, 87, 0.07); color: #ff5757; }
+.yellow { background-color: rgba(255, 176, 31, 0.07); color: #ffb01f; }
+.green { background-color: rgba(0, 189, 145, 0.07); color: #00bd91; }
+.blue { background-color: rgba(17, 37, 212, 0.07); color: #1125d4; }
+
+.item p { color: #808080; }
+.item p strong { color: #303b5a; }
+
+
+.btn {
+    background-color: #303b5a;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 18px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:active {
+    background: linear-gradient(to bottom, #6943ff, #2f2ce9);
+}
